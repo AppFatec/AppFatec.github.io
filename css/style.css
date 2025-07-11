@@ -9,11 +9,19 @@ body {
     font-family: Arial, sans-serif;
     background: #f9f9f9;
     text-align: center;
+    min-height: 100vh;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.container {
-    padding: 50px 20px;
+main.container {
+    min-height: 80dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 img {
@@ -45,4 +53,12 @@ p {
 
 .store-link img:hover {
     transform: scale(1.05);
+}
+
+footer {
+    /* background-color: #b20000; */
+    /* color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px; */
 }
